@@ -1,0 +1,8 @@
+@use './style/globals.scss' as globals;
+
+body {
+  background-color: globals.$color_grey;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+
+}

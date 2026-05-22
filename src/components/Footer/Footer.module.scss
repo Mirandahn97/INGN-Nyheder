@@ -1,0 +1,23 @@
+@use '../../style/globals.scss';
+
+.footerStyle {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: globals.$color_white;
+    margin-top: 3rem;
+    text-align: center;
+
+    div {
+        p {
+            font-size: 12px;
+            font-weight: 200;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .footerStyle{
+      grid-template-columns: repeat(1, 1fr);
+    }
+}

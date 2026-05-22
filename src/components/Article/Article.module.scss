@@ -1,0 +1,60 @@
+@use '../../style/globals.scss' as globals;
+
+.container {
+    gap: 1rem;
+    margin: 1rem;
+
+
+    div {
+        background-color: globals.$color_white;
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: 200;
+    }
+}
+
+.overskrift {
+
+    h2 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+.felxDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.dato {
+    color: globals.$color_red;
+}
+
+.skrevetAf {
+    color: globals.$color_red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.billede {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
