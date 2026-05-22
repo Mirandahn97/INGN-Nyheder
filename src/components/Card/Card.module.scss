@@ -18,14 +18,11 @@
     div {
         background-color: globals.$color_white;
         width: 100%;
-      
-
     }
 
     p {
         font-size: 12px;
         font-weight: 200;
-        padding: 10px;
     }
 }
 
@@ -71,7 +68,10 @@ a {
 }
 
 .imgWrapper{
+    width: 50%;
+    height: 250px;
     overflow: hidden;
+    
 }
 
 
@@ -107,7 +107,6 @@ a {
     grid-area: g;
     flex-direction: row;
     gap: 1rem;
-    width: 100%;
 }
 
 .item-7 {
